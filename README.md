@@ -1,7 +1,7 @@
 .
 
 📁 Project Structure
-wifey_rps_app/
+projectname_anyyouwant/
 │
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # List of Python packages needed
