@@ -5,8 +5,6 @@ import requests
 from streamlit_lottie import st_lottie
 
 
-from streamlit_lottie import st_lottie
-import requests
 
 def load_lottie_url(url: str):
     r = requests.get(url)
@@ -182,4 +180,5 @@ if st.session_state.round > 5:
         st.session_state.round = 1
         st.session_state.history = []
         st.session_state.streak = 0
+
 
