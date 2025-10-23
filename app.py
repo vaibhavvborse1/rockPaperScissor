@@ -64,6 +64,11 @@ st.markdown("""
 .center { display: flex; justify-content: center; align-items: center; flex-direction: column; }
 .move-button { font-size: 36px; padding: 10px 25px; margin: 5px; border-radius: 15px; background-color: #e0e7ff; border: none; cursor: pointer; }
 .move-button:hover { background-color: #c7d2fe; }
+
+ <div style='text-align: center; color: #888; padding-top: 20px;'>
+        💖 Made with love by <b>Vaibhav</b> 💻🎮
+    </div>
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -181,6 +186,7 @@ if st.session_state.round > 5:
         st.session_state.round = 1
         st.session_state.history = []
         st.session_state.streak = 0
+
 
 
 
