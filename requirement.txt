@@ -1,0 +1,5 @@
+streamlit
+random
+requests
+time
+streamlit_lottie
