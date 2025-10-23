@@ -4,6 +4,7 @@ import time
 import requests
 from streamlit_lottie import st_lottie
 
+st.set_page_config(page_title="Vaibhav’s Game ", page_icon="🎮", layout="centered")
 
 
 def load_lottie_url(url: str):
@@ -180,5 +181,6 @@ if st.session_state.round > 5:
         st.session_state.round = 1
         st.session_state.history = []
         st.session_state.streak = 0
+
 
 
