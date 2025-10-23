@@ -1,4 +1,3 @@
-.
 
 📁 Project Structure
 projectname_anyyouwant/
